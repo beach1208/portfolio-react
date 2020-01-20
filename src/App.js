@@ -5,6 +5,7 @@ import About from "./components/About/About";
 import Contact from "./components/Contact/Contact";
 import Header from './components/Header/Header';
 import Footer from "./components/Footer/Footer";
+import Project1 from "./components/Home/Project1"
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faLinkedin, faGithub, faDribbble } from '@fortawesome/free-brands-svg-icons';
@@ -21,6 +22,7 @@ function App() {
        <Route path="/" component={Work} exact />
        <Route path="/about" component={About} />
        <Route path="/contact" component={Contact} />
+       <Route path="/project1" component={Project1} />
      </Switch>
      <Footer/>
    </main>
