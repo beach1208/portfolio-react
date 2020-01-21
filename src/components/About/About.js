@@ -3,9 +3,9 @@ import ProfileImage from "../img/profile.jpg"
 
 function About() {
   return (
-    <div className="about">
+    <section id="about">
       <div className="container">
-        <div className="container__item">
+        <div className="container__item container__item--left">
           <h1 className="item__title">About me</h1>
           <p className="item__text">
             Vestibulum lacus magni cubilia deleniti orci viverra venenatis? Eum mollit.
@@ -20,11 +20,11 @@ function About() {
   Wordpress, PHP, Sketch, Adobe XD, UI Design
           </p>
         </div>
-        <div className="container__item">
+        <div className="container__item container__item--right">
           <img src={ProfileImage} alt="profile-image" className="item__img"/>
         </div>
       </div>
-    </div>
+    </section>
   )  
 }
 

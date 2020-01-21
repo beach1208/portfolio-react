@@ -1,3 +1,14 @@
 .header {
     background: $background;
+    padding: 10px 0;
+    .wrapper {
+        width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: flex-end;
+    }
+    &__logo {
+        margin-right: auto;
+    }
 }
