@@ -9,7 +9,7 @@ import Project1 from "./components/Home/Project1"
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faLinkedin, faGithub, faDribbble } from '@fortawesome/free-brands-svg-icons';
-
+import "./sass/app.scss";
 
 library.add(faEnvelope, faLinkedin, faGithub, faDribbble); 
 
