@@ -1,11 +1,8 @@
 .header {
     background: $background;
     padding: 10px 0;
-    .wrapper {
-        @include container-center;
-        align-items: center;
-        display: flex;
-        justify-content: flex-end;
+    .container {
+        @include flex-box(center,flex,flex-end);
     }
     &__logo {
         margin-right: auto;
@@ -16,10 +13,27 @@
     }
     &__nav-link {
         color: $primary;
+        display: inline-block;
         font-family: $title-font;
+        position: relative;
         text-decoration: none;
         &:not(:last-child) {
             margin-right: 20px;
+        }
+        &::after {
+            position: absolute;
+            bottom: -6px;
+            left: 0;
+            content: '';
+            width: 100%;
+            height: 2px;
+            background: $secondary;
+            transform: scale(0, 1);
+            transform-origin: left top;
+            transition: transform .3s;
+        }
+        &:hover::after {
+            transform: scale(1, 1);
         }
     }
 }

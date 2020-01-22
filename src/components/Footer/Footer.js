@@ -5,25 +5,33 @@ import "../../sass/app.scss";
 function Footer() {
     return (
         <div className="footer">
-            <ul>
-                
-                <li className="footer_sns-icon">
-                    <FontAwesomeIcon icon="envelope"/>
-                    Mail
-                </li>
-                <li className="footer_sns-icon">
-                    <FontAwesomeIcon icon={["fab","linkedin"]}/>
-                    Linkedin
-                </li>
-                <li className="footer_sns-icon">
-                    <FontAwesomeIcon icon={["fab","github"]}/>
-                    Github
-                </li>
-                <li className="footer_sns-icon">
-                    <FontAwesomeIcon icon={["fab","dribbble"]}/>
-                    Dribbble
-                </li>
-            </ul>
+            <div className="container">
+                <ul className="footer__sns-list">
+                    <li className="footer__sns-icon">
+                        <a href="mailto:nagisa.kojima9128@gmail.com">
+                            <FontAwesomeIcon icon="envelope"/>
+                        </a>
+                    </li>
+                    <li className="footer__sns-icon">
+                        <a href="https://www.linkedin.com/in/nagisa-kojima-703209144/" target="_blank">
+                            <FontAwesomeIcon icon={["fab","linkedin"]}/>
+                        </a>
+                    </li>
+                    <li className="footer__sns-icon">
+                        <a href="https://github.com/beach1208" target="_blank">
+                            <FontAwesomeIcon icon={["fab","github"]}/>
+                        </a>
+                    </li>
+                    <li className="footer__sns-icon">
+                        <a href="https://dribbble.com/beach1208" target="_blank">
+                            <FontAwesomeIcon icon={["fab","dribbble"]}/>
+                        </a>
+                    </li>
+                </ul>
+                <p className="footer__text">
+                    &copy; Nagisa Kojima 2020
+                </p>
+            </div>
         </div>
     )
 }

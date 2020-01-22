@@ -1,0 +1,15 @@
+#contact {
+    .container {
+        &__item {
+            @include flex-box(center,flex,center);
+            flex-direction: column;
+            .item__title-skills {
+                color: $secondary;
+                display: block;
+                margin-bottom: 5px;
+                font-family: $title-font;
+                font-weight: 700;
+            }
+        }
+    }
+}

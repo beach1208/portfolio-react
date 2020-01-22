@@ -4,7 +4,7 @@ import "../../sass/app.scss";
 function Header() {
     return (
         <div className="header">
-            <div className="wrapper">
+            <div className="container">
                 <h1 className="header__logo"><Link className="header__logo-link" to="/">NK</Link></h1>
                 <nav className="header__nav">
                     <Link to="/" className="header__nav-link">Work</Link>

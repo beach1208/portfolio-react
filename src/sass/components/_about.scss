@@ -1,29 +1,16 @@
     #about {
         .container {
-            @include container-center;
             display: flex;
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            // flex-wrap: wrap;
             &__item {
                 flex: 1;
-                .item__title {
-                    font-family: $title-font;
-                    font-size: $title-font-size;
-                    margin-bottom: 5px;
-                }
                 .item__title-skills {
                     color: $secondary;
                     display: block;
+                    margin-bottom: 5px;
                     font-family: $title-font;
                     font-weight: 700;
-                    margin-bottom: 5px;
                 }
                 .item__text {
-                    font-size: $font-size;
-                    line-height: 1.7;
                     margin-bottom: 10px;
                 }
                 .item__img {

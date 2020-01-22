@@ -1,5 +1,11 @@
-@mixin  container-center {
+@mixin center-container {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
+}
+
+@mixin flex-box($align,$display,$justify){
+    align-items: $align;
+    display: $display;
+    justify-content: $justify;
 }

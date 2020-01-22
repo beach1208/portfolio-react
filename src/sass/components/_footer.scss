@@ -1,4 +1,24 @@
 .footer {
     background: $footer;
     margin-top: auto;
+    &__sns-list {
+        @include flex-box(center,flex,center);
+        padding: 20px 0;
+    }
+    &__sns-icon {
+        font-size: 1.5rem;
+        padding: 0 10px;
+        a {
+            color: $white;
+            &:hover {
+                color: $secondary;
+            }
+        }
+    }
+    &__text {
+        color: $white;
+        font-family: $title-font;
+        text-align: center;
+        padding-bottom: 10px;
+    }
 }
