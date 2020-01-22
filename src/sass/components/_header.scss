@@ -2,13 +2,24 @@
     background: $background;
     padding: 10px 0;
     .wrapper {
-        width: 100%;
-        max-width: 1200px;
-        margin: 0 auto;
+        @include container-center;
+        align-items: center;
         display: flex;
         justify-content: flex-end;
     }
     &__logo {
         margin-right: auto;
+    }
+    &__logo-link {
+        color: $primary;
+        text-decoration: none;
+    }
+    &__nav-link {
+        color: $primary;
+        font-family: $title-font;
+        text-decoration: none;
+        &:not(:last-child) {
+            margin-right: 20px;
+        }
     }
 }

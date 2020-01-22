@@ -1,8 +1,6 @@
     #about {
         .container {
-            width: 100%;
-            max-width: 1200px;
-            margin: 0 auto;
+            @include container-center;
             display: flex;
             position: absolute;
             top: 50%;
@@ -17,11 +15,11 @@
                     margin-bottom: 5px;
                 }
                 .item__title-skills {
+                    color: $secondary;
                     display: block;
-                    margin-bottom: 5px;
                     font-family: $title-font;
                     font-weight: 700;
-                    color: $secondary;
+                    margin-bottom: 5px;
                 }
                 .item__text {
                     font-size: $font-size;
