@@ -3,12 +3,16 @@
         &__item {
             @include flex-box(center,flex,center);
             flex-direction: column;
-            .item__title-skills {
-                color: $secondary;
-                display: block;
-                margin-bottom: 5px;
-                font-family: $title-font;
-                font-weight: 700;
+            .item__title-sub {
+                font-size: 2rem;
+                a {
+                    color: $secondary;
+                    text-decoration: none;
+                }
+                .fa-envelope {
+                    vertical-align: middle;
+                    margin-right: 5px;
+                }
             }
         }
     }

@@ -3,13 +3,6 @@
             display: flex;
             &__item {
                 flex: 1;
-                .item__title-skills {
-                    color: $secondary;
-                    display: block;
-                    margin-bottom: 5px;
-                    font-family: $title-font;
-                    font-weight: 700;
-                }
                 .item__text {
                     margin-bottom: 10px;
                 }

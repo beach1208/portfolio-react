@@ -14,7 +14,7 @@ function About() {
             Ipsa voluptas atque voluptatum, sit commodi netus optio semper deleniti.
             Mi faucibus corrupti netus saepe dolores cumque torquent recusandae. A.
           </p>
-          <span className="item__title-skills">Skills</span>
+          <span className="item__title-sub">Skills</span>
           <p className="item__text">
           HTML5, CSS3, SASS(SCSS), JavaScript, jQuery, React.js, GSAP, Bootstrap
   Wordpress, PHP, Sketch, Adobe XD, UI Design

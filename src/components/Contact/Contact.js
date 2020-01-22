@@ -1,4 +1,6 @@
 import React from "react"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
 
 function Contact() {
   return (
@@ -13,7 +15,12 @@ function Contact() {
             Ipsa voluptas atque voluptatum, sit commodi netus optio semper deleniti.
             Mi faucibus corrupti netus saepe dolores cumque torquent recusandae. A.
           </p>
-          <span className="item__title-skills">Skills</span>
+          <span className="item__title-sub">
+            <a href="mailto:nagisa.kojima9128@gmail.com">
+              <FontAwesomeIcon icon="envelope"/>
+              nagisa.kojima9128@gmail.com
+            </a>
+          </span>
         </div>
       </div>
     </section>

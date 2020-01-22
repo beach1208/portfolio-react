@@ -1,0 +1,21 @@
+#intro {
+    .container {
+        display: flex;
+        &__item {
+            flex: 1;
+            .item__text {
+                margin-bottom: 10px;
+            }
+            .item__img {
+                width: 100%;
+                max-width: 500px;
+            }
+        }
+        &__item--left {
+            flex: 1;
+        }
+        &__item--right {
+            text-align: right;
+        }
+    }
+}
