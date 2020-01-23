@@ -1,10 +1,13 @@
     #about {
-        margin-top: 30px;
+        padding-top: $padding-l;
         .container {
-            @include flex-box(center,flex,center);
+            @include flex-box(flex-start,flex,center);
+            @include lg {
+                justify-content: space-between;
+            }
             flex-wrap: wrap;
             &__item {
-                padding: 0 10px;
+                flex: 0 0 320px;
                 .item__img {
                     width: 100%;
                     max-width: 300px;
@@ -12,17 +15,19 @@
             }
             &__item--left {
                 @include md {
-                    flex: 1 1 600px;
+                    flex: 0 0 600px;
+                }
+                :nth-child(2) {
+                    margin-bottom: $margin-m;
                 }
             }
             &__item--right {
-                text-align: center;
                 @include md {
-                    flex: 1 1 300px;
+                    flex: 0 0 300px;
                 }
-                @include lg {
-                    text-align: right;
-                }
+            }
+            .item__title-sub {
+                margin-bottom: $margin-s;
             }
         }
     }

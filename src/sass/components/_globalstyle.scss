@@ -1,35 +1,48 @@
 html {
-  body {
-    font-family: $font;
-    color: $primary;
-    background: $background;
-   }
-  main {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-  }
-    .container {
-        @include center-container;
-    }
-    #about, #contact, #intro {
-        .item__title {
-            font-family: $title-font;
-            font-size: $title-font-size;
-            font-weight: 700;
-            margin-bottom: 5px;
+     font-size: 62.5%;
+     body {
+        font-size: 1.6em;
+        color: $primary;
+        background: $background;
+        h1 {
+          font-size: 3.2rem;
+          @include md {
+              font-size: 6.4rem;
+          }
+        } 
+        h2 {
+          font-size: 2rem;
+          @include md {
+              font-size: 2.4rem
+          }
         }
-        .item__text {
-            font-size: $font-size;
-            line-height: 1.7;
-            margin-bottom: 10px;
+        main {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
         }
-        .item__title-sub {
-            color: $secondary;
-            display: block;
-            margin-bottom: 5px;
-            font-family: $title-font;
-            font-weight: 700;
+        .container {
+            @include center-container;
         }
-    }
+        #about,
+        #contact,
+        #intro {
+            .item__title {
+                font-family: $title-font;
+                font-weight: 700;
+                margin-bottom: $margin-s;
+            }
+            .item__text {
+                font-family: $font;
+                line-height: 1.7;
+                word-break: break-word;
+            }
+            .item__title-sub {
+                color: $secondary;
+                display: block;
+                font-family: $title-font;
+                font-weight: 700;
+            }
+        }
+     }
 }

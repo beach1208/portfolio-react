@@ -1,9 +1,29 @@
+// Font
 $font: "Helvetica";
 $title-font: "Quicksand";
-$font-size: 1rem;
-$title-font-size: 4rem;
+$font-size: 1.6rem;
+$title-font-size: 6.4rem;
+$footer-font-size: 2rem;
+
+// Color
 $primary: #433F5F;
 $secondary: #C73636;
 $footer: #585275;
 $background: #FDFAFF;
 $white: #FFFFFF;
+
+// Device size
+$screen-sm-min: 575px;
+$screen-md-min: 768px;
+$screen-lg-min: 992px;
+$screen-xl-min: 1200px;
+
+// margin
+$margin-s: 5px;
+$margin-m: 10px;
+$margin-l: 30px;
+
+// padding
+$padding-s: 5px;
+$padding-m: 10px;
+$padding-l: 20px;

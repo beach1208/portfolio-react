@@ -1,6 +1,8 @@
 .header {
     background: $background;
     padding: 10px 5px;
+    height: 70px;
+    display: flex;
     .container {
         @include flex-box(center,flex,space-between);
         flex-direction: column;
@@ -9,7 +11,7 @@
         }
     }
     &__logo {
-        margin-bottom: 5px;
+        margin-bottom: $margin-s;
         @include md {
            margin: 0;
         }

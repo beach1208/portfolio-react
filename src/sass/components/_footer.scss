@@ -3,11 +3,11 @@
     margin-top: auto;
     &__sns-list {
         @include flex-box(center,flex,center);
-        padding: 20px 0;
+        padding: $padding-l 0;
     }
     &__sns-icon {
-        font-size: 1.5rem;
-        padding: 0 10px;
+        font-size: $footer-font-size;
+        padding: 0 $padding-m;
         a {
             color: $white;
             &:hover {
@@ -19,6 +19,6 @@
         color: $white;
         font-family: $title-font;
         text-align: center;
-        padding-bottom: 10px;
+        padding-bottom: $padding-m;
     }
 }
