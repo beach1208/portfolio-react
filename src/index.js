@@ -1,5 +1,5 @@
 import ReactDOM from 'react-dom';
-import React, { Component } from 'react';
+import React from 'react';
 import { BrowserRouter } from 'react-router-dom';
 import 'normalize.css'; 
 import App from './App';

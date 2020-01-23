@@ -1,8 +1,17 @@
 #intro {
     .container {
-        display: flex;
+        @include flex-box(center,flex,center);
+        
+        flex-wrap: wrap;
         &__item {
-            flex: 1;
+            flex: 0 0 320px;
+            padding: 0 10px;
+            @include sm {
+                padding: 0;
+            }
+            @include md {
+                flex: 0 0 495px;
+            }
             .item__text {
                 margin-bottom: 10px;
             }
@@ -12,10 +21,16 @@
             }
         }
         &__item--left {
-            flex: 1;
+            order: 2;
+            @include md {
+                order: 1;
+            }
         }
         &__item--right {
-            text-align: right;
+            order: 1;
+            @include md {
+                order: 2;
+            }
         }
     }
 }

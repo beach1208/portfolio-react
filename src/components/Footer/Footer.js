@@ -13,17 +13,17 @@ function Footer() {
                         </a>
                     </li>
                     <li className="footer__sns-icon">
-                        <a href="https://www.linkedin.com/in/nagisa-kojima-703209144/" target="_blank">
+                        <a href="https://www.linkedin.com/in/nagisa-kojima-703209144/" target="_blank" rel="noopener noreferrer">
                             <FontAwesomeIcon icon={["fab","linkedin"]}/>
                         </a>
                     </li>
                     <li className="footer__sns-icon">
-                        <a href="https://github.com/beach1208" target="_blank">
+                        <a href="https://github.com/beach1208" target="_blank" rel="noopener noreferrer">
                             <FontAwesomeIcon icon={["fab","github"]}/>
                         </a>
                     </li>
                     <li className="footer__sns-icon">
-                        <a href="https://dribbble.com/beach1208" target="_blank">
+                        <a href="https://dribbble.com/beach1208" target="_blank" rel="noopener noreferrer">
                             <FontAwesomeIcon icon={["fab","dribbble"]}/>
                         </a>
                     </li>

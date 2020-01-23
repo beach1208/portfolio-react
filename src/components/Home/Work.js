@@ -8,11 +8,46 @@ function Work(props) {
   return (
     <div>
       <Intro/>
-      <Thumbnail
-        link="/Project1"
-        image={Img1}
-        title="Project1"
-      />
+      <section id="project">
+        <div className="container cards">
+          <Thumbnail
+            link="/Project1"
+            image={Img1}
+            title="Project1"
+            details="HTML/CSS/JavaScript"
+          />
+          <Thumbnail
+            link="/Project1"
+            image={Img1}
+            title="Project1"
+            details="HTML/CSS/JavaScript"
+          />
+          <Thumbnail
+            link="/Project1"
+            image={Img1}
+            title="Project1"
+            details="HTML/CSS/JavaScript"
+          />
+          <Thumbnail
+            link="/Project1"
+            image={Img1}
+            title="Project1"
+            details="HTML/CSS/JavaScript"
+          />
+          <Thumbnail
+            link="/Project1"
+            image={Img1}
+            title="Project1"
+            details="HTML/CSS/JavaScript"
+          />
+          <Thumbnail
+            link="/Project1"
+            image={Img1}
+            title="Project1"
+            details="HTML/CSS/JavaScript"
+          />
+        </div>
+    </section>
     </div>
   )
 }

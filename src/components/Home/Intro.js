@@ -17,7 +17,7 @@ function Intro() {
           </p>
         </div>
         <div className="container__item container__item--right">
-          <img src={IntroImage} alt="profile-image" className="item__img"/>
+          <img src={IntroImage} alt="illustration" className="item__img"/>
         </div>
       </div>
     </section>

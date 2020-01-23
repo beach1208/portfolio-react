@@ -3,14 +3,15 @@ import { Link } from 'react-router-dom';
  
 function Thumbnail(props) {
   return (
-    <div className="project">
-      <Link to={props.link}>
-        <div className="project-image">
-          <img src={props.image} alt="Project Image"/>
-        </div>
-        <div className="project-title">{props.title}</div>
-    </Link>
-    </div>
+      <div className="card">
+        <Link to={props.link} className="card__link">
+          <img src={props.image} className="card__img" alt="thumbnail"/>
+          <div className="card__text">
+            <h2 className="card__text-title">{props.title}</h2>
+            <p lassName="card__text-details">{props.details}</p>
+          </div>
+        </Link>
+      </div>
   )
 }
  
