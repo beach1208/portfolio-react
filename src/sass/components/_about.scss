@@ -1,21 +1,28 @@
     #about {
+        margin-top: 30px;
         .container {
-            display: flex;
+            @include flex-box(center,flex,center);
+            flex-wrap: wrap;
             &__item {
-                flex: 1;
-                .item__text {
-                    margin-bottom: 10px;
-                }
+                padding: 0 10px;
                 .item__img {
                     width: 100%;
                     max-width: 300px;
                 }
             }
             &__item--left {
-                flex: 2;
+                @include md {
+                    flex: 1 1 600px;
+                }
             }
             &__item--right {
-                text-align: right;
+                text-align: center;
+                @include md {
+                    flex: 1 1 300px;
+                }
+                @include lg {
+                    text-align: right;
+                }
             }
         }
     }

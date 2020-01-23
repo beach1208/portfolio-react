@@ -1,18 +1,19 @@
 .header {
     background: $background;
-    padding: 10px 0;
+    padding: 10px 5px;
     .container {
-        // display: block;
-        // text-align: center;
         @include flex-box(center,flex,space-between);
         flex-direction: column;
         @include md {
             flex-direction: row;
         }
     }
-    // &__logo {
-    //     margin-right: auto;
-    // }
+    &__logo {
+        margin-bottom: 5px;
+        @include md {
+           margin: 0;
+        }
+    }
     &__logo-link {
         color: $primary;
         text-decoration: none;

@@ -1,23 +1,21 @@
 #intro {
+    margin: 30px 0;
     .container {
         @include flex-box(center,flex,center);
-        
         flex-wrap: wrap;
         &__item {
             flex: 0 0 320px;
-            padding: 0 10px;
-            @include sm {
-                padding: 0;
-            }
+            margin: 10px 0;
             @include md {
                 flex: 0 0 495px;
+                margin: 0;
             }
-            .item__text {
-                margin-bottom: 10px;
+            .item__title-sub {
+                font-size: 1.5rem;
             }
             .item__img {
                 width: 100%;
-                max-width: 500px;
+                max-width: 495px;
             }
         }
         &__item--left {

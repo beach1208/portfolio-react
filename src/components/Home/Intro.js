@@ -7,7 +7,7 @@ function Intro() {
       <div className="container">
         <div className="container__item container__item--left">
           <h1 className="item__title">Hi, I’m Nagisa</h1>
-          <span className="item__title-sub">I’m a Front-end Developer & Designer</span>
+          <h2 className="item__title-sub">I’m a Front-end Developer & Designer</h2>
           <p className="item__text">
             Vestibulum lacus magni cubilia deleniti orci viverra venenatis? Eum mollit.
             Odit vehicula error diamlorem quidem eius? Ipsum, cillum necessitatibus porttitor.
