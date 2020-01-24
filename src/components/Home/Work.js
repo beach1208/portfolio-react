@@ -11,37 +11,37 @@ function Work(props) {
       <section id="project">
         <div className="container cards">
           <Thumbnail
-            link="/Project1"
+            link="/Project"
+            image={Img1}
+            title="Public Dashboard"
+            details="HTML/CSS/JavaScript"
+          />
+          <Thumbnail
+            link="/Project"
             image={Img1}
             title="Project1"
             details="HTML/CSS/JavaScript"
           />
           <Thumbnail
-            link="/Project1"
+            link="/Project"
             image={Img1}
             title="Project1"
             details="HTML/CSS/JavaScript"
           />
           <Thumbnail
-            link="/Project1"
+            link="/Project"
             image={Img1}
             title="Project1"
             details="HTML/CSS/JavaScript"
           />
           <Thumbnail
-            link="/Project1"
+            link="/Project"
             image={Img1}
             title="Project1"
             details="HTML/CSS/JavaScript"
           />
           <Thumbnail
-            link="/Project1"
-            image={Img1}
-            title="Project1"
-            details="HTML/CSS/JavaScript"
-          />
-          <Thumbnail
-            link="/Project1"
+            link="/Project"
             image={Img1}
             title="Project1"
             details="HTML/CSS/JavaScript"
