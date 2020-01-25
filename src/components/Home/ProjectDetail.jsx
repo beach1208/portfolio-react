@@ -8,7 +8,7 @@ const ProjectDetail = (props) => {
       <div className="container">
         <div className="container__item">
           <h1 className="item__title">{propsState.title}</h1>
-          <img src={propsState.image} alt="profile" className="item__img"/>
+          <img src={propsState.imagedetail} alt="profile" className="item__img"/>
           <h2 className="item__title-sub">Project Summary</h2>
           <p className="item__text">
            {propsState.summary}

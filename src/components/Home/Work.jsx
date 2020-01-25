@@ -17,6 +17,7 @@ const Work = (props) => {
                   key={thumbnail.id}
                   link={thumbnail.link}
                   image={thumbnail.image}
+                  imagedetail={thumbnail.imagedetail}
                   title={thumbnail.title}
                   technology={thumbnail.technology}
                   summary={thumbnail.summary}

@@ -9,11 +9,8 @@ const Intro = () => {
           <h1 className="item__title">Hi, I’m Nagisa</h1>
           <h2 className="item__title-sub">I’m a Front-end Developer & Designer</h2>
           <p className="item__text">
-            Vestibulum lacus magni cubilia deleniti orci viverra venenatis? Eum mollit.
-            Odit vehicula error diamlorem quidem eius? Ipsum, cillum necessitatibus porttitor.
-            Ultrices doloremque tenetur diamlorem cupiditate varius, voluptas dictum. Fugiat pede.
-            Ipsa voluptas atque voluptatum, sit commodi netus optio semper deleniti.
-            Mi faucibus corrupti netus saepe dolores cumque torquent recusandae. A.
+            I was born and raised in Fukuoka, Japan. Lived in United Arab Emirates and Canada for work.
+            Currently based in Tokyo!
           </p>
         </div>
         <div className="container__item container__item--right">

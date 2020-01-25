@@ -2,17 +2,23 @@
     padding-top: $padding-l;
     .container {
         &__item {
-            flex: 0 0 320px;
+            // flex: 0 0 320px;
+            margin-bottom: $margin-l;
+            padding: 0 $padding-l;
+            @include lg {
+                    padding: 0;
+            }
             .item {
+                &__title {
+                    margin-bottom: $margin-m;
+                }
                 &__img {
                     width: 100%;
                     max-width: 990px;
+                    margin-bottom: $margin-m;
                 }
                 &__text {
                     margin-bottom: $margin-m;
-                    &__text:last-child {
-                        margin-bottom: $margin-l;
-                    }
                 }
                 &__title-sub {
                     margin-bottom: $margin-s;

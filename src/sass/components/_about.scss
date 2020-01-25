@@ -7,17 +7,20 @@
             }
             flex-wrap: wrap;
             &__item {
-                flex: 0 0 320px;
+                padding: 0 $padding-l;
+                @include md {
+                    padding: 0;
+                }
                 .item__img {
                     width: 100%;
-                    max-width: 300px;
+                    margin-bottom: 20px;
                 }
             }
             &__item--left {
                 @include md {
                     flex: 0 0 600px;
                 }
-                :nth-child(2) {
+                .item__text {
                     margin-bottom: $margin-m;
                 }
             }

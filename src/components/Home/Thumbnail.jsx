@@ -8,6 +8,7 @@ const Thumbnail = (props) => {
             pathname: props.link,
             state: {
               image: props.image,
+              imagedetail: props.imagedetail,
               title: props.title,
               technology: props.technology,
               summary: props.summary
@@ -15,7 +16,9 @@ const Thumbnail = (props) => {
           }}
             className="card__link"
           >
-          <img src={props.image} className="card__img" alt="thumbnail"/>
+          <div className="card__image-container">
+            <img src={props.image} className="card__img" alt="thumbnail"/>
+          </div>
           <div className="card__text">
             <h3 className="card__text-title">{props.title}</h3>
             <p className="card__text-details">{props.technology}</p>
