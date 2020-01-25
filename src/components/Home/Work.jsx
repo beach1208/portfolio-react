@@ -14,10 +14,11 @@ const Work = (props) => {
             ThumbnailData.map(thumbnail => {
               return (
                 <Thumbnail
+                  key={thumbnail.id}
                   link={thumbnail.link}
                   image={thumbnail.image}
                   title={thumbnail.title}
-                  details={thumbnail.details}
+                  technology={thumbnail.technology}
                   summary={thumbnail.summary}
                 />
               )

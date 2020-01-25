@@ -1,6 +1,6 @@
 import React from "react"
 
-const Project1 = (props) => {
+const ProjectDetail = (props) => {
   console.log(props.location.state);
   const propsState = props.location.state;
   return (
@@ -15,7 +15,7 @@ const Project1 = (props) => {
           </p>
           <h2 className="item__title-sub">Technology</h2>
           <p className="item__text">
-            {propsState.details}
+            {propsState.technology}
           </p>
           <div className="item__btn">
             <a
@@ -33,4 +33,4 @@ const Project1 = (props) => {
   )  
 }
 
-export default Project1;
+export default ProjectDetail;
