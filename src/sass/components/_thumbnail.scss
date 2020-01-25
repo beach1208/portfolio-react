@@ -10,6 +10,11 @@
         box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
         margin: $margin-m 0;
         width: 320px;
+        transition:box-shadow 0.3s, transform 0.3s;
+        &:hover {
+            box-shadow: 0 2px 14px rgba(0, 0, 0, 0.3);
+            transform:translate(0, -4px);
+        }
         &__link {
             text-decoration: none;
         }

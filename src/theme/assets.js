@@ -8,5 +8,9 @@ export const Assets = {
   p3detail: require('../components/img/p3detail.png'),
   p4preview: require('../components/img/p4preview.png'),
   p4detail: require('../components/img/p4detail.png'),
+  p5preview: require('../components/img/p5preview.png'),
+  p5detail: require('../components/img/p5detail.png'),
+  p6preview: require('../components/img/p6preview.png'),
+  p6detail: require('../components/img/p6detail.png'),
   profileImg: require('../components/img/profile.jpg')
 }

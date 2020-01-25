@@ -10,6 +10,7 @@ const Thumbnail = (props) => {
               image: props.image,
               imagedetail: props.imagedetail,
               title: props.title,
+              projectLink: props.projectLink,
               technology: props.technology,
               summary: props.summary
             }

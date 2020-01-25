@@ -16,6 +16,7 @@ const Work = (props) => {
                 <Thumbnail
                   key={thumbnail.id}
                   link={thumbnail.link}
+                  projectLink={thumbnail.projectLink}
                   image={thumbnail.image}
                   imagedetail={thumbnail.imagedetail}
                   title={thumbnail.title}

@@ -31,7 +31,9 @@
                 }
                 &__link {
                     color: $white;
+                    display: block;
                     font-family: $title-font;
+                    margin-bottom: $margin-m;
                     text-decoration: none;
                 }
             }

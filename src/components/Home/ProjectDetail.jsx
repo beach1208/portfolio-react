@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from 'react-router-dom';
 
 const ProjectDetail = (props) => {
   console.log(props.location.state);
@@ -17,16 +18,17 @@ const ProjectDetail = (props) => {
           <p className="item__text">
             {propsState.technology}
           </p>
-          <div className="item__btn">
             <a
-              href="https://performance.envisio.com/dashboard/bayview/"
+              href={propsState.projectLink}
               target="_blank"
               rel="noopener noreferrer"
               className="item__link"
             >
-              Visit website
+                <div className="item__btn">
+                    Visit website
+                </div>
             </a>
-          </div>
+            <Link to="/" className="header__nav-link">Back to projects</Link>
         </div>
       </div>
     </section>
