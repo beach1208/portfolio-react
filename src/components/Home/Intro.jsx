@@ -1,13 +1,13 @@
 import React from "react"
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import IntroImage from "../img/illustration.svg"
 
-
-function Contact() {
+const Intro = () => {
   return (
-    <section id="contact">
+    <section id="intro">
       <div className="container">
-        <div className="container__item">
-          <h1 className="item__title">Let's Keep in Touch</h1>
+        <div className="container__item container__item--left">
+          <h1 className="item__title">Hi, I’m Nagisa</h1>
+          <h2 className="item__title-sub">I’m a Front-end Developer & Designer</h2>
           <p className="item__text">
             Vestibulum lacus magni cubilia deleniti orci viverra venenatis? Eum mollit.
             Odit vehicula error diamlorem quidem eius? Ipsum, cillum necessitatibus porttitor.
@@ -15,16 +15,13 @@ function Contact() {
             Ipsa voluptas atque voluptatum, sit commodi netus optio semper deleniti.
             Mi faucibus corrupti netus saepe dolores cumque torquent recusandae. A.
           </p>
-          <span className="item__title-sub">
-            <a href="mailto:nagisa.kojima9128@gmail.com">
-              <FontAwesomeIcon icon="envelope"/>
-              nagisa.kojima9128@gmail.com
-            </a>
-          </span>
+        </div>
+        <div className="container__item container__item--right">
+          <img src={IntroImage} alt="illustration" className="item__img"/>
         </div>
       </div>
     </section>
   )  
 }
 
-export default Contact
+export default Intro

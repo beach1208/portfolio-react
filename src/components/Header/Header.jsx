@@ -1,7 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../../sass/app.scss";
-function Header() {
+
+const Header = () => {
     return (
         <div className="header">
             <div className="container">

@@ -2,7 +2,7 @@ import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import "../../sass/app.scss";
 
-function Footer() {
+const Footer = () => {
     return (
         <div className="footer">
             <div className="container">

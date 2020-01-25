@@ -1,13 +1,12 @@
 import React from "react"
-import IntroImage from "../img/illustration.svg"
+import ProfileImage from "../img/profile.jpg"
 
-function Intro() {
+const About = () => {
   return (
-    <section id="intro">
+    <section id="about">
       <div className="container">
         <div className="container__item container__item--left">
-          <h1 className="item__title">Hi, I’m Nagisa</h1>
-          <h2 className="item__title-sub">I’m a Front-end Developer & Designer</h2>
+          <h1 className="item__title">About me</h1>
           <p className="item__text">
             Vestibulum lacus magni cubilia deleniti orci viverra venenatis? Eum mollit.
             Odit vehicula error diamlorem quidem eius? Ipsum, cillum necessitatibus porttitor.
@@ -15,13 +14,18 @@ function Intro() {
             Ipsa voluptas atque voluptatum, sit commodi netus optio semper deleniti.
             Mi faucibus corrupti netus saepe dolores cumque torquent recusandae. A.
           </p>
+          <span className="item__title-sub">Skills</span>
+          <p className="item__text">
+          HTML5, CSS3, SASS(SCSS), JavaScript, jQuery, React.js, GSAP, Bootstrap
+  Wordpress, PHP, Sketch, Adobe XD, UI Design
+          </p>
         </div>
         <div className="container__item container__item--right">
-          <img src={IntroImage} alt="illustration" className="item__img"/>
+          <img src={ProfileImage} alt="profile" className="item__img"/>
         </div>
       </div>
     </section>
   )  
 }
 
-export default Intro
+export default About
