@@ -2,12 +2,14 @@
     padding: $padding-l 0;
     .container {
         @include flex-box(center,flex,center);
+        @include fadeInBottomTop;
+        animation: fadeInBottomTop .8s ease-in-out;
         flex-wrap: wrap;
         &__item {
             flex: 0 0 320px;
             margin: $margin-m 0;
             @include md {
-                flex: 0 0 495px;
+                flex: 0 0 480px;
                 margin: 0;
             }
             .item__title-sub {
@@ -15,7 +17,7 @@
             }
             .item__img {
                 width: 100%;
-                max-width: 495px;
+                max-width: 480px;
             }
         }
         &__item--left {

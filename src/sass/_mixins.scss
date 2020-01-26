@@ -1,6 +1,6 @@
 @mixin center-container {
     width: 100%;
-    max-width: 990px;
+    max-width: 960px;
     margin: 0 auto;
 }
 
@@ -8,6 +8,19 @@
     align-items: $align;
     display: $display;
     justify-content: $justify;
+}
+
+@mixin fadeInBottomTop {
+    @keyframes fadeInBottomTop {
+        from {
+            opacity: 0;
+            transform: translateY(50px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
 }
 
 // Small devices
