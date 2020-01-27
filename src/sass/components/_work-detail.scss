@@ -1,8 +1,9 @@
 #work-detail {
     padding-top: $padding-l;
+    @include fadeInBottomTop;
+    animation: fadeInBottomTop .8s ease-in-out;
     .container {
         &__item {
-            // flex: 0 0 320px;
             margin-bottom: $margin-l;
             padding: 0 $padding-l;
             @include lg {

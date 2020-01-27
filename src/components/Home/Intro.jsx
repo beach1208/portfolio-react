@@ -1,5 +1,6 @@
 import React from "react"
 import { Spring }from "react-spring/renderprops"
+import * as easings from 'd3-ease'
 import IntroImage from "../img/illustration.svg"
 
 const Intro = () => {
@@ -8,8 +9,9 @@ const Intro = () => {
       <div className="container">
         <div className="container__item container__item--left">
           <Spring
-            from={{ opacity: 0, marginBottom: -100}}
-            to={{ opacity: 1, marginBottom: 0}}
+            from={{ opacity: 0 , marginTop: 20 }}
+            to={{ opacity: 1, marginTop: 0}}
+            config={{ duration: 1000, easing: easings.easeBackInOut}}
           >
             {props => (
               <div style={props}>
@@ -17,14 +19,44 @@ const Intro = () => {
               </div>
             )}
           </Spring>
-          <h2 className="item__title-sub">I’m a Front-end Developer & Designer</h2>
-          <p className="item__text">
-            I was born and raised in Fukuoka, Japan. Lived in United Arab Emirates and Canada for work.
-            Currently based in Tokyo!
-          </p>
+          <Spring
+            from={{ opacity: 0}}
+            to={{ opacity: 1}}
+            config={{ delay: 300, duration: 1000, easing: easings.easeBackInOut}}
+          >
+            {props => (
+              <div style={props}>
+                <h2 className="item__title-sub">I’m a Front-end Developer & Designer</h2>
+              </div>
+            )}
+          </Spring>
+          <Spring
+            from={{ opacity: 0}}
+            to={{ opacity: 1}}
+            config={{ delay: 500, duration: 1000, easing: easings.easeBackInOut}}
+          >
+            {props => (
+              <div style={props}>
+                <p className="item__text">
+                  I was born and raised in Fukuoka, Japan. Lived in United Arab Emirates and Canada for work.
+                  Currently based in Tokyo!
+                </p>
+              </div>
+            )}
+          </Spring>
         </div>
         <div className="container__item container__item--right">
-          <img src={IntroImage} alt="illustration" className="item__img"/>
+           <Spring
+            from={{ opacity: 0, marginTop: 20}}
+            to={{ opacity: 1, marginTop: 0}}
+            config={{ delay: 600, duration: 1000, easing: easings.easeBackInOut}}
+          >
+            {props => (
+              <div style={props}>
+                 <img src={IntroImage} alt="illustration" className="item__img"/>
+              </div>
+            )}
+          </Spring>
         </div>
       </div>
     </section>
