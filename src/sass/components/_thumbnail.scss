@@ -2,9 +2,6 @@
     margin: $margin-l 0;
     .cards {
         @include flex-box(center,flex,space-around);
-        // opacity: 1;
-        // @include fadeInBottomTop;
-        // animation: fadeInBottomTop .8s ease-in-out 2s;
         align-items: stretch;
         flex-wrap: wrap;
     }

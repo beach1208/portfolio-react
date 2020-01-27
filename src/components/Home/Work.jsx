@@ -1,10 +1,8 @@
 import React from "react"
 import { Spring }from "react-spring/renderprops"
-import * as easings from 'd3-ease'
 import Thumbnail from './Thumbnail'
 import Intro from "./Intro";
 import { ThumbnailData } from '../../data/ThumbnailData'
-
 
 const Work = (props) => {
   return (

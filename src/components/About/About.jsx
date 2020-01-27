@@ -8,16 +8,17 @@ const About = () => {
         <div className="container__item container__item--left">
           <h1 className="item__title">About me</h1>
           <p className="item__text">
-            Vestibulum lacus magni cubilia deleniti orci viverra venenatis? Eum mollit.
-            Odit vehicula error diamlorem quidem eius? Ipsum, cillum necessitatibus porttitor.
-            Ultrices doloremque tenetur diamlorem cupiditate varius, voluptas dictum. Fugiat pede.
-            Ipsa voluptas atque voluptatum, sit commodi netus optio semper deleniti.
-            Mi faucibus corrupti netus saepe dolores cumque torquent recusandae. A.
+            Hi, I'm Nagisa. I'm a Japanese Front-end UI Developer.
+            I started working as a flight attendant in United Arab Emirates after graduating from univitersity in Japan.
+            Since I have always wanted to learn coding, I moved to Vancouver, Canada in 2017 to study programming.
+            In 2019, I worked for a Vancouver based software company as a Front-end UI Developer.
+            I enjoy Front end UI design and coding a lot and I love collanborating with others to achive same goals together.
+            <span>日本語・英語バイリンガルのフロントエンドエンジニアです。お仕事のご相談につきましては、Email又はLinkedInからご連絡お願いします。</span>
           </p>
           <span className="item__title-sub">Skills</span>
           <p className="item__text">
           HTML5, CSS3, SASS(SCSS), JavaScript, jQuery, React.js, GSAP, Bootstrap
-  Wordpress, PHP, Sketch, Adobe XD, UI Design
+  Wordpress, PHP, Sketch, Adobe XD, UI Design, Japanese(Native), English(Fluent).
           </p>
         </div>
         <div className="container__item container__item--right">

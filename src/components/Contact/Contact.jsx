@@ -9,11 +9,9 @@ const Contact = () => {
         <div className="container__item">
           <h1 className="item__title">Let's Keep in Touch</h1>
           <p className="item__text">
-            Vestibulum lacus magni cubilia deleniti orci viverra venenatis? Eum mollit.
-            Odit vehicula error diamlorem quidem eius? Ipsum, cillum necessitatibus porttitor.
-            Ultrices doloremque tenetur diamlorem cupiditate varius, voluptas dictum. Fugiat pede.
-            Ipsa voluptas atque voluptatum, sit commodi netus optio semper deleniti.
-            Mi faucibus corrupti netus saepe dolores cumque torquent recusandae. A.
+            Thank you for visiting my portfolio!
+            I'm currently looking for a Front end / UI Developer jobs.
+            Feel free to message me through social medias or email if you are interetested in working with me!
           </p>
           <span className="item__title-sub">
             <a href="mailto:nagisa.kojima9128@gmail.com">

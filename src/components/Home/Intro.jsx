@@ -26,7 +26,7 @@ const Intro = () => {
           >
             {props => (
               <div style={props}>
-                <h2 className="item__title-sub">I’m a Front-end Developer & Designer</h2>
+                <h2 className="item__title-sub">I’m a Front-end UI Developer</h2>
               </div>
             )}
           </Spring>

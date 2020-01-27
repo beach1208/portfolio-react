@@ -24,6 +24,9 @@
                 }
                 .item__text {
                     margin-bottom: $margin-m;
+                    span {
+                        display: block;
+                    }
                 }
             }
             &__item--right {
