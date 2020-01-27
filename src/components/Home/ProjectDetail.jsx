@@ -2,7 +2,6 @@ import React from "react"
 import { Link } from 'react-router-dom';
 
 const ProjectDetail = (props) => {
-  console.log(props.location.state);
   const propsState = props.location.state;
   return (
     <section id="work-detail">

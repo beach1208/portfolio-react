@@ -11,22 +11,14 @@
                 @include md {
                     padding: 0;
                 }
-                .item__title {
-                    @include fadeInBottomTop;
-                    animation: fadeInBottomTop .8s ease-in-out;
-                }
-                .item__text {
-                    @include fadeInBottomTop;
-                    animation: fadeInBottomTop .8s ease-in-out .5s;
-                }
                 .item__img {
                     width: 100%;
                     margin-bottom: 20px;
                 }
             }
             &__item--left {
-                // @include fadeInBottomTop;
-                // animation: fadeInBottomTop .8s ease-in-out;
+                @include fadeInLeftToRight;
+                animation: fadeInLeftToRight .8s ease;
                 @include md {
                     flex: 0 0 600px;
                 }
@@ -35,8 +27,8 @@
                 }
             }
             &__item--right {
-                // @include fadeInBottomTop;
-                // animation: fadeInBottomTop .8s ease-in-out;
+                @include fadeInRightToLeft;
+                animation: fadeInRightToLeft .8s ease;
                 @include md {
                     flex: 0 0 300px;
                 }

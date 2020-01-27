@@ -2,8 +2,8 @@
     padding: $padding-l 0;
     .container {
         @include flex-box(center,flex,center);
-        @include fadeInBottomTop;
-        animation: fadeInBottomTop .8s ease-in-out;
+        // @include fadeInBottomTop;
+        // animation: fadeInBottomTop .8s ease-in-out;
         flex-wrap: wrap;
         &__item {
             flex: 0 0 320px;

@@ -1,7 +1,7 @@
 #contact {
     padding-top: $padding-l;
     @include fadeInBottomTop;
-    animation: fadeInBottomTop .8s ease-in-out;
+    animation: fadeInBottomTop .8s ease;
     .container {
         &__item {
             @include flex-box(flex-start,flex,flex-start);
