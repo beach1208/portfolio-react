@@ -23,6 +23,21 @@
                 }
                 &__title-sub {
                     margin-bottom: $margin-s;
+                    display: inline-block;
+                    vertical-align: middle;
+                }
+                &__language {
+                    margin-left: $margin-m;
+                    background: $white;
+                    border: 1px solid $secondary;
+                    padding: 5px;
+                    font-size: 12px;
+                    cursor: pointer;
+                    border-radius: 5px;
+                    color: $secondary;
+                    &:focus {
+                        outline: 0;
+                    }
                 }
                 &__btn {
                     display: inline-block;
