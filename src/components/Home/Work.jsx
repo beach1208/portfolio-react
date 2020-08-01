@@ -29,6 +29,7 @@ const Work = (props) => {
                         title={thumbnail.title}
                         technology={thumbnail.technology}
                         summary={thumbnail.summary}
+                        jpsummary={thumbnail.jpsummary}
                       />
                     )
                   })

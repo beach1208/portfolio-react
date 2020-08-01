@@ -12,7 +12,8 @@ const Thumbnail = (props) => {
               title: props.title,
               projectLink: props.projectLink,
               technology: props.technology,
-              summary: props.summary
+              summary: props.summary,
+              jpsummary: props.jpsummary
             }
           }}
             className="card__link"
