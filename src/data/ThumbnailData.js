@@ -9,7 +9,7 @@ export const ThumbnailData = [
     title: 'Public Dashboard',
     technology: 'HTML5, CSS3(SCSS), JavaScript, React.js, Adobe XD',
     summary: 'Public Dashboard is a website builder to show tracked strategic plans by software to public. I mainly worked for redesign and coding of Navigation menu, admin panel, Thumbnail image hover animation, fixing all UI bugs in entire page.  ',
-    jpsummary: 'サマリー',
+    jpsummary: 'カナダの政府系ソフトウェア会社にて、北米の自治体向けのWebサイトビルダープロジェクトに参加。三年ぶりの全面的なリニューアルにおいて、管理画面やサイト全体のメニューのUX及びUIの改善、ワイヤーフレーム作成、React.jsを使用したフロントエンドコーディングを担当。',
     projectLink: 'https://performance.envisio.com/dashboard/bayview/'
   },
   {
