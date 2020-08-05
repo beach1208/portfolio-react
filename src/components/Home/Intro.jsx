@@ -26,7 +26,7 @@ const Intro = () => {
           >
             {props => (
               <div style={props}>
-                <h2 className="item__title-sub">I’m a Front-end UI Developer</h2>
+                <h2 className="item__title-sub">I’m a UX Designer/Developer</h2>
               </div>
             )}
           </Spring>
@@ -38,8 +38,7 @@ const Intro = () => {
             {props => (
               <div style={props}>
                 <p className="item__text">
-                  I was born and raised in Fukuoka, Japan. Lived in United Arab Emirates and Canada for work.
-                  Currently based in Tokyo!
+                  Currently based in Tokyo, Japan!
                 </p>
               </div>
             )}
