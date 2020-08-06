@@ -13,7 +13,13 @@ const Thumbnail = (props) => {
               projectLink: props.projectLink,
               technology: props.technology,
               summary: props.summary,
-              jpsummary: props.jpsummary
+              jpsummary: props.jpsummary,
+              enchallenge: props.enchallenge,
+              jpchallenge: props.jpchallenge,
+              engoal: props.engoal,
+              jpgoal: props.jpgoal,
+              enrole: props.enrole,
+              jprole: props.jprole
             }
           }}
             className="card__link"

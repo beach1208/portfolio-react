@@ -30,6 +30,12 @@ const Work = (props) => {
                         technology={thumbnail.technology}
                         summary={thumbnail.summary}
                         jpsummary={thumbnail.jpsummary}
+                        enchallenge={thumbnail.enchallenge}
+                        jpchallenge={thumbnail.jpchallenge}
+                        engoal={thumbnail.engoal}
+                        jpgoal={thumbnail.jpgoal}
+                        enrole={thumbnail.enrole}
+                        jprole={thumbnail.jprole}
                       />
                     )
                   })

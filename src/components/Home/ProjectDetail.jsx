@@ -5,6 +5,7 @@ import { useState } from 'react';
 const ProjectDetail = (props) => {
   const [on, setOn] = useState(false);
   const propsState = props.location.state;
+  console.log(propsState);
   return (
     <section id="work-detail">
       <div className="container">
@@ -21,19 +22,19 @@ const ProjectDetail = (props) => {
               <div className="sub_item">
                 <h2 className="item__title-sub">The Challenge</h2>
                 <p className="item__text">
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                {on ? propsState.jpchallenge : propsState.enchallenge}
                 </p>
               </div>
               <div className="sub_item">
                 <h2 className="item__title-sub">The Goal</h2>
                 <p className="item__text">
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                {on ? propsState.jpgoal : propsState.engoal}
                 </p>
               </div>
           </div>
           <h2 className="item__title-sub">My Role</h2>
                 <p className="item__text">
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                {on ? propsState.jprole : propsState.enrole}
                 </p>
           <h2 className="item__title-sub">Technology</h2>
                 <p className="item__text">
