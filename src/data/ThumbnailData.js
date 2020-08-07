@@ -26,6 +26,13 @@ export const ThumbnailData = [
     title: 'Find My Cosmetics',
     technology: 'HTML5, CSS3, JavaScript, React.js, API',
     summary: 'Web API Search application project using React.js and Make up API. Users can search different types of cosmetics. By typing keywords or selecting category options, it shows product names, brand names, categories such as Organic, Dairy Free, Vegan and so on.',
+    jpsummary: '日本語サマリー',
+    enchallenge:'Challenge Challenge',
+    jpchallenge:'チャレンジここにくる',
+    engoal:'My Gole was .....',
+    jpgoal: 'ゴールは',
+    enrole:'My role in english',
+    jprole:'主な担当の説明',
     projectLink: 'https://beach1208.github.io/Find-My-Cosmetics/',
   },
   {
@@ -36,6 +43,13 @@ export const ThumbnailData = [
     title: 'Layla Ballet',
     technology: 'HTML5, CSS3(SCSS), JavaScript, jQuery, Adobe XD',
     summary: 'Layla Ballet is a ballet studio website. Since this ballet studio has more adult students, I carefully designed font size and layout of the website so that users could find information easily.',
+    jpsummary: '日本語サマリー',
+    enchallenge:'Challenge Challenge',
+    jpchallenge:'チャレンジここにくる',
+    engoal:'My Gole was .....',
+    jpgoal: 'ゴールは',
+    enrole:'My role in english',
+    jprole:'主な担当の説明',
     projectLink: 'https://nagisa-kojima.com/laylaballet'
   },
   {
@@ -45,7 +59,15 @@ export const ThumbnailData = [
     imagedetail: Assets.p4detail,
     title: 'LA NATURE',
     technology: 'HTML5, CSS3(SCSS), JavaScript, PHP, WordPress, Sketch',
-    summary: 'LA NATURE is original WordPress blog theme. I targeted female bloggers first of all, and started from Web Design using Sketch App. After I made a foundation of the theme with HTML5, I converted all HTML files to PHP files.'
+    summary: 'LA NATURE is original WordPress blog theme. I targeted female bloggers first of all, and started from Web Design using Sketch App. After I made a foundation of the theme with HTML5, I converted all HTML files to PHP files.',
+    jpsummary: '日本語サマリー',
+    enchallenge:'Challenge Challenge',
+    jpchallenge:'チャレンジここにくる',
+    engoal:'My Gole was .....',
+    jpgoal: 'ゴールは',
+    enrole:'My role in english',
+    jprole:'主な担当の説明',
+    projectLink: 'http://la-nature-blog.nagisa-kojima.com/'
   },
   {
     id: 5,
@@ -55,6 +77,13 @@ export const ThumbnailData = [
     title: 'Recipe Flicker',
     technology: 'Sketch, Illustrator, Zepplin, UX/UI Design',
     summary: 'Recipe Flicker is a school group project I worked with other two iOS Developers. We decided to make a recipe suggestion app for those who can not decide what to cook and eat. I implemented users and competitors research first, then worked from wireframing to prototyping with Sketch App. I also made an icon with Sketch and illustrator.',
+    jpsummary: '日本語サマリー',
+    enchallenge:'Challenge Challenge',
+    jpchallenge:'チャレンジここにくる',
+    engoal:'My Gole was .....',
+    jpgoal: 'ゴールは',
+    enrole:'My role in english',
+    jprole:'主な担当の説明',
     projectLink: 'https://github.com/KentaKodashima/RecipeFlicker'
   },
   {
@@ -65,6 +94,13 @@ export const ThumbnailData = [
     title: 'Portfolio Theme',
     technology: 'HTML5, CSS3(SCSS), JavaScript, GSAP, PHP, WordPress, Adobe XD',
     summary: 'Portfolio WordPress theme to display all personal projects. I worked from design to coding, adding animations and maintaining contents. ',
+    jpsummary: '日本語サマリー',
+    enchallenge:'Challenge Challenge',
+    jpchallenge:'チャレンジここにくる',
+    engoal:'My Gole was .....',
+    jpgoal: 'ゴールは',
+    enrole:'My role in english',
+    jprole:'主な担当の説明',
     projectLink: 'https://nagisa-kojima.com/',
   }
 ]
