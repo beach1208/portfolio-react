@@ -13,7 +13,7 @@ const About = () => {
             Since I have always wanted to learn coding, I moved to Vancouver, Canada in 2017 to study programming.
             In 2019, I worked for a Vancouver based software company as a Front-end UI Developer.
             I enjoy Front end UI design and coding a lot and I love collanborating with others to achive same goals together.
-            <span>日本語・英語バイリンガルのフロントエンドエンジニアです。お仕事のご相談につきましては、Email又はLinkedInからご連絡お願いします。</span>
+            <span>日本語・英語バイリンガルのUXエンジニア/デザイナーです。お仕事のご相談につきましては、Email又はLinkedInからご連絡お願いします。</span>
           </p>
           <span className="item__title-sub">Skills</span>
           <p className="item__text">
