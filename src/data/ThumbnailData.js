@@ -10,11 +10,11 @@ export const ThumbnailData = [
     technology: 'UX/UI Design, User Research, Wireframing, Adobe XD',
     summary: 'Bike Sharing Application Redesign.',
     jpsummary: 'いつも使用している自転車シェアアプリケーションの再設計及びリデザインを行いました。',
-    enchallenge:'.',
-    jpchallenge:'',
-    engoal:'',
-    jpgoal: '',
-    enrole:'',
+    enchallenge:'There were problems such as a complicated registration screen, no English support, not being able to unlock bicycles smoothly, and difficulty in viewing bicycle information, usage history and fee history.',
+    jpchallenge:'複雑な会員登録画面、英語対応なし、自転車の解錠がスムーズにいかない、自転車の情報、利用履歴や料金履歴が見にくい等の問題点がありました。',
+    engoal:'The member registration screen has been simplified and a login link to other services has been added, the English and Japanese languages switch feature has been added, the method of unlocking the bicycle has been made easier to select, the battery level of the bicycle has been displayed, and usage information can be easily checked from the tabs.',
+    jpgoal: '会員登録画面の簡素化と他サービスとのログイン連携機能の追加、英語と日本語の言語切り替え機能、自転車の解錠方法を選択しやすくし、自転車のバッテリーレベルを表示、利用情報等も容易にタブから確認できるように変更しました。',
+    enrole:'User Research, Wireframing, UX/UI Design',
     jprole:'ユーザーリサーチ、ワイヤーフレーム作成、UX/UIデザインを担当しました。',
     projectLink: ''
   },
@@ -103,21 +103,4 @@ export const ThumbnailData = [
     jprole:'ユーザーリサーチ、競合リサーチなどを行い、Sketchを用いてワイヤーフレーミング、プロトタイピングを担当し、アプリのロゴも作成しました。',
     projectLink: 'https://github.com/KentaKodashima/RecipeFlicker'
   }
-  // {
-  //   id: 6,
-  //   link: '/project/project6',
-  //   image: Assets.p6preview,
-  //   imagedetail: Assets.p6preview,
-  //   title: 'Portfolio Theme',
-  //   technology: 'HTML5, CSS3(SCSS), JavaScript, GSAP, PHP, WordPress, Adobe XD',
-  //   summary: 'Portfolio WordPress theme to display all personal projects. I worked from design to coding, adding animations and maintaining contents. ',
-  //   jpsummary: '初代ポートフォリオサイトをWordPressテーマ化して作成しました。デザインからコーディング、WordPressテーマ化を一貫して行いました。',
-  //   enchallenge:'It was my first time creating WordPress Theme from the scratch. Converting HTML base code to PHP was challengig for me. Also I tried using GSAP animation for the first time as well.',
-  //   jpchallenge:'HTMLベースのサイトをPHPに変換し、WordPressテーマを作成することが大変でした。GSAPというアニメーションのライブラリも習得し、使用しました。',
-  //   engoal:'Added all contents through WordPress admin page and implemented various animations with GSAP.',
-  //   jpgoal: 'WordPressのアドミンページから作品の写真や詳細を追加できるようにテーマを完成させ、GSAPを使用したアニメーションを各ページに追加することができました。',
-  //   enrole:'I focused on UI Design, Front-end Coding, WordPress Theme Development and adding GSAP animation. ',
-  //   jprole:'主な役割として、UIデザイン、フロントエンドコーディング、WordPressテーマ作成、GSAPアニメーションの追加に注力しました。',
-  //   projectLink: 'https://nagisa-kojima.com/',
-  // }
 ]
