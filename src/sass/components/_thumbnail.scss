@@ -6,21 +6,19 @@
         flex-wrap: wrap;
     }
     .card {
-        border: 1px solid $border;
-        box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+        box-shadow: 1px 1px 6px 0px  rgba(146, 146, 146, 0.3);
         margin: $margin-m 0;
-        width: 300px;
+        width: 500px;
         transition:box-shadow 0.3s, transform 0.3s;
         &:hover {
-            box-shadow: 0 2px 14px rgba(0, 0, 0, 0.3);
+            box-shadow: 0 2px 14px rgba(94, 93, 93, 0.3);
             transform:translate(0, -4px);
         }
         &__link {
             text-decoration: none;
         }
         &__image-container {
-            height: 200px;
-            border-bottom: 1px solid $border;
+            height: 320px;
         }
         &__img {
             width: 100%;
