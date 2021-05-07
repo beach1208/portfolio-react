@@ -67,7 +67,7 @@ export const ThumbnailData = [
     jpgoal: '全ページでのレスポンシブ対応及び、各ページ切り替えにおけるアニメーションやスクロールアニメーションをScroll RevealやANIMSITIONなどのライブラリを使用し、実現させました。',
     enrole:'I focused on UX/UI Design, Front-end coding and animation coding.',
     jprole:'UX/UIデザイン、フロントエンド実装とアニメーションの実装を担当しました。',
-    projectLink: 'https://nagisa-kojima.com/laylaballet'
+    projectLink: 'https://beach1208.github.io/LaylaBallet/'
   },
   {
     id: 2,
@@ -84,7 +84,7 @@ export const ThumbnailData = [
     jpgoal: 'このテーマを完成させることによって、HTMLベースで作成したサイトをPHPに変換させ、WordPressサイトとして実装、立ち上げる方法を学びました。',
     enrole:'I focused on Web Design, PHP Coding and understanding WordPress structure.',
     jprole:'Webデザイン、PHPコーディング、WordPressテーマ作成の実装を担当しました。',
-    projectLink: 'http://la-nature-blog.nagisa-kojima.com/'
+    projectLink: 'https://github.com/beach1208/LA-NATURE'
   },
   {
     id: 1,
