@@ -20,6 +20,9 @@
                 }
                 &__text {
                     margin-bottom: $margin-l;
+                    ul {
+                        list-style: unset;
+                    }
                 }
                 &__title-sub {
                     margin-bottom: $margin-m;
